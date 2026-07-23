@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 int main() {
     int choice;
     char filename[50] = "tickets_db.txt";
