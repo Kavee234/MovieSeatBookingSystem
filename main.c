@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
+void initMovies();
+void viewMovies();
+void viewShowtimes(int m);
+void viewSeatMap(int m, int t);
+void bookTicket(const char *movie, const char *showtime, int seatNumber, float price);
+void printTickets();
+void saveTicketsToFile(const char *filename);
+void loadTicketsFromFile(const char *filename);
+void generateReport();
+
 int main() {
     int choice;
     char filename[50] = "tickets_db.txt";
